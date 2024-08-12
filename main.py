@@ -6,7 +6,7 @@ from transformers import BertTokenizer, BertModel
 kkma = Kkma()
 
 # Example sentence
-text = "하늘고에서 맏이하는 아침은 정말 졸리다."
+text = "하늘고에서 맞이하는 아침은 정말 졸리다."
 
 morphs = kkma.morphs(text)
 print("Morphemes:", morphs)
